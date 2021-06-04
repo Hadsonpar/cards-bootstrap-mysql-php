@@ -1,0 +1,55 @@
+/*Inicializar estilo del avatar y foto*/
+.avatar {
+  vertical-align: middle;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border:2px solid rgba(0,0,0,.125);
+  margin: 5px;
+}
+
+.foto {
+  vertical-align: middle;
+  width: 195px;
+  height: 195px;
+  border-radius: 50%;
+}
+
+/* @media queries de CSS3 para controlar la pagina responsiva*/
+/* 1. Cuando la resolución de la pantalla sea 991, el avanta y foto 
+      al dimención sera menor de lo iniciado*/
+@media only screen and (max-width: 991px) {
+  .avatar {
+     vertical-align: middle;
+     width: 160px;
+     height: 160px;
+     border-radius: 50%;
+     border:2px solid rgba(0,0,0,.125);
+     margin: 5px;
+  }
+  .foto {
+    vertical-align: middle;
+    width: 155px;
+    height: 155px;
+    border-radius: 50%;
+  }
+ }
+
+ /* 2. Cuando la resolución de la pantalla sea 767, el avanta se 
+       ocultará (la foto está dentro del avatar que hereda 
+       la occión ocultar)*/
+ @media only screen and (max-width: 767px) {
+  .avatar {
+     display: none !important;
+  }
+ }
+
+/* Para dar color al texto de header del CARD según el valor que nos 
+   devuelve el campo flag de la base de datos (1 = verder o 2 = rojo)*/
+ .H3Dis{
+   color: seagreen;
+ }
+
+ .H3Ocup{
+  color: red;
+ }
