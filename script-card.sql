@@ -15,9 +15,9 @@ CREATE DATABASE /*!32312 IF NOT EXISTS*/`demos` /*!40100 DEFAULT CHARACTER SET u
 
 USE `demos`;
 
-/*Table structure for table `cards` */
+/*Table structure for table `usuario` */
 
-DROP TABLE IF EXISTS `cards`;
+DROP TABLE IF EXISTS `usuario`;
 
 CREATE TABLE `usuario` (
   `id` INT(11) NOT NULL AUTO_INCREMENT,
@@ -36,4 +36,4 @@ CREATE TABLE `usuario` (
 
 /*Data for the table `cards` */
 
-INSERT  INTO `cards`(`id`,`name`,`address`,`profile`,`skills`,`website`,`photo`,`facebook`,`gplus`,`twitter`,`flag`) VALUES (1,'Hadson Paredes Cordova','Av. Las Azucenas, El Agustino - Lima Perú','Autodidacta y apasionado por las nuevas tecnologías, la investigación, los patrones de diseño y las buenas prácticas; Arquitecto de TI con experiencia y participación en diversos proyectos de banca, seguros y AFP.','Software Architect, Web Developer, Mobile Developer','http://hadsonpar.com','img/hadson.png','https://www.facebook.com/hadsonpar','https://www.google.com/hadsonpar','https://www.titter.com/hadsonpar',1),(2,'Cesar Paredes Cordova','Av. Las Azucenas, El Agustino - Lima Perú','Scrum Master, bachiller en Economía con conocimientos en gestión de proyectos Agiles y bajo el enfoque del PMI.','Web Developer, Mobile Developer, Full-Stack Developer','http://hadsonpar.com','img/cesar.png','https://www.facebook.com/hadsonpar','https://www.google.com/hadsonpar','https://www.titter.com/hadsonpar',2),(3,'Gian Marco Elera Garay','Av. Los Caminos, Los Olivos - Lima Perú','Salesforce technical architect passionate about new trends in technology and business, devops discipline, design patterns and software architecture.','Mobile Developer, Full-Stack Developer, Scrum Master, UI/UX','http://hadsonpar.com','img/gian.png','https://www.facebook.com/hadsonpar','https://www.google.com/hadsonpar','https://www.titter.com/hadsonpar',1);
+INSERT  INTO `usuario`(`id`,`name`,`address`,`profile`,`skills`,`website`,`photo`,`facebook`,`gplus`,`twitter`,`flag`) VALUES (1,'Hadson Paredes Cordova','Av. Las Azucenas, El Agustino - Lima Perú','Autodidacta y apasionado por las nuevas tecnologías, la investigación, los patrones de diseño y las buenas prácticas; Arquitecto de TI con experiencia y participación en diversos proyectos de banca, seguros y AFP.','Software Architect, Web Developer, Mobile Developer','http://hadsonpar.com','img/hadson.png','https://www.facebook.com/hadsonpar','https://www.google.com/hadsonpar','https://www.titter.com/hadsonpar',1),(2,'Cesar Paredes Cordova','Av. Las Azucenas, El Agustino - Lima Perú','Scrum Master, bachiller en Economía con conocimientos en gestión de proyectos Agiles y bajo el enfoque del PMI.','Web Developer, Mobile Developer, Full-Stack Developer','http://hadsonpar.com','img/cesar.png','https://www.facebook.com/hadsonpar','https://www.google.com/hadsonpar','https://www.titter.com/hadsonpar',2),(3,'Gian Marco Elera Garay','Av. Los Caminos, Los Olivos - Lima Perú','Salesforce technical architect passionate about new trends in technology and business, devops discipline, design patterns and software architecture.','Mobile Developer, Full-Stack Developer, Scrum Master, UI/UX','http://hadsonpar.com','img/gian.png','https://www.facebook.com/hadsonpar','https://www.google.com/hadsonpar','https://www.titter.com/hadsonpar',1);
